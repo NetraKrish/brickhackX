@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.App {
+  margin: 5px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.grid-container-element { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+} 
+.grid-child-element { 
+  margin: 10px;   
+ 
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  background-image: url('../img/brick.png');
+  background-size: 100% 100% ;
+  margin-bottom: 8px;
+ 
+ }
+ .todo-item p {
+  color: white;
+  font-size: 15px;
+ padding: 15px 0px 0px 0px;
+ }
+ .add-todo
+ {
+  display: flex;
+  height: 7vh;
+  width:100%;
+  margin-bottom: 8px;
+ }
+ .input-style
+ {
+  width:100%;
+ }
+ .brick
+ {
+  background-image: url('../img/brick1.png');
+  background-size:100% 80%;
+  border-radius:5% 5% 5% 5%;
+ }
+ .spade
+ {height:9vh;
+  background:url('../img/spade.png');
+  background-size:100% 100% ;
+  border: none;
+  cursor:pointer;
+  color:transparent;
+ }
