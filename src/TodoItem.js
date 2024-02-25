@@ -1,9 +1,10 @@
 import React from 'react';
 import {useDraggable} from '@dnd-kit/core';
 import "./styles.css";
-function TodoItem({ task, deleteTask, toggleCompleted }) {
+export function TodoItem({ task, deleteTask, toggleCompleted }) {
     const {attributes, listeners, setNodeRef, transform} = useDraggable({
         id: task.id,
+        data:task
       }); 
       const style = transform ? {
         transform: `translate3d(${transform.x}px, ${transform.y}px, 0)`,

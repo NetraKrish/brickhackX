@@ -1,19 +1,20 @@
 import { Calender } from "./Calender";
-import { ToDo } from "./ToDo";
+import { ToDo} from "./ToDo";
 import {DndContext} from '@dnd-kit/core';
 import "./styles.css";
+import {Navbar} from "./header";
+import {CalendarTodo} from "./calendartodo";
 
 
 export default function App() {
   return (
+ 
+    <div className="App">
+    <Navbar/>
 
-    <div className="App grid-container-element">
+   <Calender />
 
-    <DndContext>
-      <Calender className ="grid-child-element"/>
-      <ToDo className ="grid-child-element"/>
-    
-      </DndContext>
     </div>
   );
+ 
 }
