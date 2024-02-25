@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #ff4500;
+    --secondary-color: #ffffff;
+    --dark-color: #000000;
+    --ligh-color: #808080;
+    --max-width: 1100px;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  nav {
+    background-color: #F76902;
+    color: black;
+    margin: 0px;
+    display: flex;
+    border-bottom: 1px solid;
+  }
+  
+  .container {
+    padding: 0px 0px 0px 20px;
+    display: flex;
+  }
+  
+  ul {
+   
+    display: flex;
+  }
+  
+  li {
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--dark-color);
+  }
+  
