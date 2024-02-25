@@ -12,7 +12,9 @@
   h2
   {
     vertical-align: middle;
+ font-family:'Comic Sans MS', 'Comic Sans', 'cursive';
   }
+
   nav {
     background-color: #F76902;
     color: black;
@@ -27,6 +29,7 @@
     justify-content: space-between;
     align-items: center;
     width:100%;
+    
   }
   .logo-container {
     display: flex; /* Display logo and h2 in a row */
@@ -35,7 +38,7 @@ align-items: center;
   .logo{
 
   background-image: url("../img/logo.png");
-  background-size:75% 100%;
+  background-size:65% 115%;
   background-repeat: no-repeat;
   color:transparent;
   }

@@ -26,7 +26,7 @@ export const Navbar = () => {
         <div className="container">
           <div className="logo-container">
             <span className="logo">dsdssff</span>
-          <h2> BRICK TASKS  </h2>
+          <h2> Brick Tasks </h2>
           </div>
           <ul>
             <li>

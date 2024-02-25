@@ -87,7 +87,7 @@ export const PortalWrapper = styled.div`
   background: white;
   position: absolute;
   width: 60%;
-  height: 200px;
+  height: 250px;
   top: 50%;
   left: 50%;
   /* border: 1px solid; */
