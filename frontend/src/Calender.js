@@ -331,7 +331,7 @@ console.log(tasks);
     value={text}
     onChange={e => setText(e.target.value)} 
     />
-   <button onClick={() => addTask(text)}>Add</button>
+   <button className= "add-button" onClick={() => addTask(text)}>Add</button>
    </div>
     </div>
     

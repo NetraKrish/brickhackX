@@ -29,15 +29,20 @@
   display: flex;
   justify-content: space-between;
   height: 10vh;
-  background-image: url('../img/brick.png');
-  background-size: 100% 100% ;
   margin-bottom: 8px;
  
  }
+
  .todo-item p {
   color: white;
   font-size: 15px;
  padding: 15px 0px 0px 0px;
+ text-align: center;
+ height: 10vh;
+  width:25vw;;
+  background-image: url('../img/brick.png');
+  background-size: 100% 100% ;
+  margin-bottom: 8px;
  }
  .add-todo
  {
@@ -49,6 +54,8 @@
  .input-style
  {
   width:100%;
+  border: solid 2px green;
+  background-color: rgba(0, 128, 0,0.5);
  }
  .brick
  {
@@ -63,4 +70,10 @@
   border: none;
   cursor:pointer;
   color:transparent;
+ }
+ .add-button
+ {
+  border:1px solid#ff4500;
+  border-radius: 5% 5% 5% 5%;
+  background-color: #ff4500;
  }

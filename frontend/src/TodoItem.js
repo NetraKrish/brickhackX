@@ -16,16 +16,20 @@ function handleChange() {
  }
  
  return (
- <div ref={setNodeRef} style={style}  {...listeners} {...attributes} className="todo-item">
+  <div>
+ <div  className="todo-item">
  <input 
  type="checkbox"
  checked={task.completed}
  onChange={handleChange}
  />
+ <div className ="todo-text" ref={setNodeRef} style={style}  {...listeners} {...attributes}>
 <p>{task.text}</p>
+</div>
 <button className="spade" onClick={() => deleteTask(task.id)}>
 cdefg
  </button>
+ </div>
  </div>
  );
 }
